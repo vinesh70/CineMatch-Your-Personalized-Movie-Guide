@@ -16,7 +16,7 @@ The dataset used in this project is from Kaggle:
 
 ## API
 
-This project uses the TMDB API to fetch movie posters. You can get the API key by creating an account on [The Movie Database (TMDB)](https://www.themoviedb.org/documentation/api).
+This project uses the TMDB API to fetch movie posters. You can get the API key by creating an account on [The Movie Database (TMDB)](https://www.themoviedb.org/).
 
 ## Installation
 
