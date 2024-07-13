@@ -81,10 +81,6 @@ This app can be deployed for free on Streamlit Sharing, Heroku, or other cloud p
 
 Feel free to open issues or submit pull requests if you have any improvements or suggestions.
 
-## License
-
-This project is licensed under the MIT License.
-
 ---
 
 **Author**: [Vinesh Ryapak](https://www.linkedin.com/in/vinesh-ryapak-73693a227/)
