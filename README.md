@@ -87,4 +87,4 @@ This project is licensed under the MIT License.
 
 ---
 
-**Author**: Vinesh Ryapak https://www.linkedin.com/in/vinesh-ryapak-73693a227/
+**Author**: [Vinesh Ryapak](https://www.linkedin.com/in/vinesh-ryapak-73693a227/)
