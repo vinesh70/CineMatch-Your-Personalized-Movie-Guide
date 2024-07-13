@@ -4,16 +4,13 @@ import pickle
 import requests
 
 def fetch_poster(movie_id):
-    url = 'https://api.themoviedb.org/3/movie/{}?api_key=fd0384e45f087a35e745ca29d8aef4ae'.format(movie_id)
-    response = requests.get(url)
-    if response.status_code == 200:
-        data = response.json()
-        if 'poster_path' in data:
-            return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
-        else:
-            return None  # Return None if poster path is not available
+    response = requests.get(f'https://api.themoviedb.org/3/movie/{movie_id}?api_key={tmdb_api_key}')
+    data = response.json()
+    if 'poster_path' in data and data['poster_path'] is not None:
+        return "https://image.tmdb.org/t/p/w500/" + data['poster_path']
     else:
-        return None  # Return None if API request fails
+        return None  # Handle cases where no poster path is available
+
 
 def recommend(movie):
     try:
