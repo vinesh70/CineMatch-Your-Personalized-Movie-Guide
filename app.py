@@ -31,7 +31,7 @@ movies = pd.DataFrame(movies_dict)
 similarity = pickle.load(open('similarity.pkl','rb'))
 
 st.set_page_config(
-    page_title="CineMatch: Your Personalized Movie Guide",  # Change the title here
+    page_title="CineMatch: Your Personalized Movie Guide By Vinesh Ryapak",  # Change the title here
     page_icon="🎬",  # Optional: You can add an emoji or a path to a favicon
     layout="centered",  # Other options: "wide"
     initial_sidebar_state="auto"  # Other options: "expanded", "collapsed"
