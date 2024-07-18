@@ -37,7 +37,7 @@ st.set_page_config(
     initial_sidebar_state="auto"  # Other options: "expanded", "collapsed"
 )
 
-st.title('Movie Recommender System')
+st.title('Movie Recommender System by Vinesh Ryapak')
 
 selected_movie_name = st.selectbox(
     'Which movie did you watched recently?',
